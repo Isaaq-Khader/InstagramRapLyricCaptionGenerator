@@ -26,7 +26,7 @@ function getLyric() {
         'im so lonely',
         'poggers']; 
     const rap = raps[Math.floor(Math.random() * raps.length)];
-    const bestLink = "https://youtu.be/dQw4w9WgXcQ";
+    const bestLink = "Funny panda video!";
     const bestVideo = bestLink.link("https://youtu.be/dQw4w9WgXcQ");
 
     // retrieve the rap-container from the HTML and display it there
