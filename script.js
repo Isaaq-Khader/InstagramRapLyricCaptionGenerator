@@ -24,7 +24,7 @@ function getLyric() {
         '"Picture that with a Kodak\, And\, better yet\, go to Times Square\, take a picture of me with a Kodak"- Pitbull',
         '“you a stupid hoe”- Nicki Minaj',
         'im so lonely',
-        'poggers'];
+        'poggers']; 
     const rap = raps[Math.floor(Math.random() * raps.length)];
 
     // retrieve the rap-container from the HTML and display it there
