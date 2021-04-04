@@ -29,5 +29,4 @@ function getLyric() {
     // retrieve the rap-container from the HTML and display it there
     const rapContainer = document.getElementById('rap-container');
     rapContainer.innerText = rap;
-    rapContainer.setAttribute("style", "margin: 1%;padding: 1%;background-color: #8B0000;border-left: rgb(112, 0, 0);opacity: 0.9;text-align:center");
 }

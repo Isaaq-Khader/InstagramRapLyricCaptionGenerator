@@ -10,6 +10,7 @@
     margin-right: auto;
     width: 50%;
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: white;
 }
 
 .header {
@@ -23,7 +24,17 @@
 .lyric-body {
     margin: 1%;
     padding: 1%;
+    text-align: center;
     background-color: #8B0000;
     border-left: 3px solid rgb(112, 0, 0);
     opacity: 0.9;
+}
+
+.raps {
+    margin: 1%;
+    padding: 1%;
+    background-color: #8B0000;
+    border-left: 3px solid rgb(112, 0, 0);
+    opacity: 0.9;
+    text-align:center
 }
