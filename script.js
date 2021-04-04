@@ -36,6 +36,6 @@ function getLyric() {
     const RickRoll = Math.floor(Math.random() * 10)
     if(RickRoll == 7)
     {
-        rapContainer.innerHTML = rap + "\n" + bestVideo;
+        rapContainer.innerHTML = "<h3>" + rap + "\n" + bestVideo + "</h3>";
     }
 }
