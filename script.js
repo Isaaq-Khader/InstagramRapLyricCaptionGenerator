@@ -26,8 +26,15 @@ function getLyric() {
         'im so lonely',
         'poggers']; 
     const rap = raps[Math.floor(Math.random() * raps.length)];
+    const bestVideo = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO";
 
     // retrieve the rap-container from the HTML and display it there
     const rapContainer = document.getElementById('rap-container');
     rapContainer.innerText = rap;
+
+    const RickRoll = Math.floor(Math.random() * 10)
+    if(RickRoll == 7)
+    {
+        rapContainer.innerText = rap + "\n" + bestVideo;
+    }
 }
