@@ -31,11 +31,11 @@ function getLyric() {
 
     // retrieve the rap-container from the HTML and display it there
     const rapContainer = document.getElementById('rap-container');
-    rapContainer.innerText = rap;
+    rapContainer.innerHTML = rap;
 
     const RickRoll = Math.floor(Math.random() * 10)
     if(RickRoll == 7)
     {
-        rapContainer.innerText = rap + "\n" + bestVideo;
+        rapContainer.innerHTML = rap + "\n" + bestVideo;
     }
 }
