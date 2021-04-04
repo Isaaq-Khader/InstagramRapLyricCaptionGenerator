@@ -5,5 +5,5 @@ function getLyric() {
 
     // retrieve the rap-container from the HTML and display it there
     const rapContainer = document.getElementById('rap-container');
-    factContainer.innerText = rap;
+    rapContainer.innerText = rap;
 }
