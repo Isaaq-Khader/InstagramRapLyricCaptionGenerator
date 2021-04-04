@@ -5,17 +5,17 @@
 }
 
 #content {
-    margin-top: 50%;
+    margin-top: 20%;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-    color: white;
 }
 
 .header {
     margin: 1%;
     background-color: #8B0000;
+    color: white;
     border-top: 3px solid gb(112, 0, 0);
     padding: 1%;
     text-align: center;
@@ -25,6 +25,7 @@
     margin: 1%;
     padding: 1%;
     text-align: center;
+    color: white;
     background-color: #8B0000;
     border-left: 3px solid rgb(112, 0, 0);
     opacity: 0.9;
@@ -33,6 +34,7 @@
 .raps {
     margin: 1%;
     padding: 1%;
+    color: white;
     background-color: #8B0000;
     border-left: 3px solid rgb(112, 0, 0);
     opacity: 0.9;
