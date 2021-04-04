@@ -31,7 +31,7 @@ function getLyric() {
 
     // retrieve the rap-container from the HTML and display it there
     const rapContainer = document.getElementById('rap-container');
-    rapContainer.innerHTML = rap;
+    rapContainer.innerHTML = "<h3>" + rap + "</h3>";
 
     const RickRoll = Math.floor(Math.random() * 10)
     if(RickRoll == 7)
