@@ -1,5 +1,5 @@
 .bg {
-    background-image: "images/kanyee.png";
+    background-image: url("images/kanyee.png");
     background-size: cover;
     padding-top: 1%;
 }
