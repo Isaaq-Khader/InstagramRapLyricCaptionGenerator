@@ -5,7 +5,7 @@
 }
 
 #content {
-  margin-left: auto;
+  margin-left: 60%;
   margin-right: auto;
   width: 50%;
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
@@ -13,8 +13,8 @@
 
 .header {
     margin: 1%;
-    background-color: aliceblue;
-    border-top: rgb(191, 200, 207);
+    background-color: #8B0000;
+    border-top: rgb(112, 0, 0);
     padding: 1%;
     text-align: center;
 }
@@ -22,15 +22,7 @@
 .lyric-body {
     margin: 1%;
     padding: 1%;
-    background-color: aliceblue;
-    border-left: rgb(191, 200, 207);
-    opacity: 0.9;
-}
-
-.raps {
-    margin: 1%;
-    padding: 1%;
-    background-color: aliceblue;
-    border-left: rgb(191, 200, 207);
+    background-color: #8B0000;
+    border-left: rgb(112, 0, 0);
     opacity: 0.9;
 }
