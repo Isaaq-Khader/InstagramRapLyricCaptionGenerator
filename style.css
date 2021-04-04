@@ -5,7 +5,7 @@
 }
 
 #content {
-  margin-left: 40%;
+  margin-left: 30%;
   margin-right: auto;
   width: 50%;
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
@@ -14,7 +14,7 @@
 .header {
     margin: 1%;
     background-color: #8B0000;
-    border-top: rgb(112, 0, 0);
+    border-top: 3px solid gb(112, 0, 0);
     padding: 1%;
     text-align: center;
 }
@@ -23,6 +23,6 @@
     margin: 1%;
     padding: 1%;
     background-color: #8B0000;
-    border-left: rgb(112, 0, 0);
+    border-left: 3px solid rgb(112, 0, 0);
     opacity: 0.9;
 }
