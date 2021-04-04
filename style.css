@@ -59,6 +59,7 @@ p {
 .raps {
     margin: 1%;
     padding: 1%;
+    margin-block-end: 1em;
     color: white;
     background-color: #8B0000;
     border-left: 3px solid rgb(112, 0, 0);
